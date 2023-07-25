@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+  
+    justify-content: space-evenly;
+   
+    
+    
+   
+    
+}
+header{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    background-image: url(flipkart.jpeg);
+    background-size: cover;
+   
+    width: 100px;
+    
+}
+
+.searchbox{
+    display: flex;
+    
+    
+    
+    
+}
+.search-input{
+    width:521px;
+    margin-top:0.7rem ;
+    margin-bottom: 0.7rem;
+  
+
+    
+
+}
+.search-icon{
+    background-color: white;
+    color:  #2874f0;
+    width: 42px;
+    
+    margin-top:0.68rem ;
+    margin-bottom: 0.68rem;
+}
+.login{
+    width: 121px;
+    height: 30px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    
+}
+.login :hover {
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.divp{
+    height: 56px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.divmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.login{
+    color: #2874f0;
+    font-weight: 700;
+    background-color: #ffffff;
+    
+}
+.login a{
+    text-decoration: none;
+    background-color: #ffffff;
+}
+.more{
+    margin-right: 5px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+.cart i{
+    margin-right: 5px;
+}
+/** nav 2 box**/
+.navx{
+    
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    font-weight: 700;
+    
+}
+.nav1{
+    height: 112px;
+    background-color: #ffffff;
+    
+    display: flex;
+    
+}
+.pic1{
+    background-image: url(nav_1.webp);
+    background-size: cover;
+    height: 112px;
+    width: 95px;
+
+}
+.pic2{
+    background-image: url(nav_2.webp);
+    background-size: cover;
+    height: 112px;
+    width: 95px;
+
+}
+.pic3{
+    background-image: url(nav_3.webp);
+    background-size: cover;
+    height: 112px;
+    width: 95px;
+
+}
+.pic4{
+    background-image: url(nav_4.webp);
+    background-size: cover;
+    height: 112px;
+    width: 95px;
+
+}
+.pic5{
+    background-image: url(nav_5.webp);
+    background-size: cover;
+    height: 112px;
+    width: 95px;
+
+}
+.pic6{
+    background-image: url(nav_6.webp);
+    background-size: cover;
+    height: 112px;
+    width: 150px;
+
+}
+.pic7{
+    background-image: url(nav_7.webp);
+    background-size: cover;
+    height: 112px;
+    width: 115px;
+
+}
+.pic8{
+    background-image: url(nav_8.webp);
+    background-size: cover;
+    height: 112px;
+    width: 95px;
+
+}
+.pic9{
+    background-image: url(nav_9.webp);
+    background-size: cover;
+    height: 112px;
+    width: 120px;
+
+}
+.pic10{
+    background-image: url(nav_10.webp);
+    background-size: cover;
+    height: 112px;
+    width: 125px;
+
+}
+.nav1:hover{
+    color: blue;
+    font-weight: 700;
+    border: 2px solid yellow;
+}
+/** hero image **/ 
+.heroimage{
+    background-image: url(hero.webp);
+    height: 280px;
+    background-size: cover;
+    border-top: 20px solid rgb(231, 228, 228);
+}
+/** panel **/
+.gridcontainer{
+    height: 400px;
+    width: 100%;
+    
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.grid-item{
+ 
+    
+   display: flex;
+    flex-direction: column-reverse;
+}
+
+.divc p{
+    font-size: smaller;
+    font-weight: 700;
+    font-weight: 700;
+   
+}
+.divsec p{
+    font-size: small;
+    color: green;
+    font-weight: 700;
+
+}
+.divthrd p{
+    
+    color: gray;
+    font-weight: 700;
+    font-size: small;
+}
+.item1{
+    background-image: url(box_1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+}
+.item2{
+    background-image: url(box_2.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+}
+.item3{
+    background-image: url(box_3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+}
+.item4{
+    background-image: url(box_4.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+}
+.panel1{
+    background-image: url(2box_1.webp);
+}
+.panel2{
+    background-image: url(2box_2.webp);
+}
+.panel3{
+    background-image: url(2box_3.webp);
+}
+.panel4{
+    background-image: url(2box_4.webp);
+}
+.box{
+    border-top: 20px solid rgb(200, 199, 197);
+}
+/** Footer **/
+
+
+
+.row1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    color: white;
+    font-weight: 700;
+    justify-content: space-evenly;
+    
+   
+
+}
+.row1 ul{
+    list-style-type: none;
+    
+}
+
+.row1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    
+   
+}
+.headbox{
+    margin-top: 40px;
+
+
+}
+.headbox h4{
+    color: gainsboro;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+.row1 a:hover{
+    text-decoration: underline;
+}
+.p{
+    margin-bottom: 10px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    position: sticky;
+    bottom: 0;
+}
+ 
